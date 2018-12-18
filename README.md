@@ -34,20 +34,7 @@ C:\Users\cmd>python3 pm_sshcmd.py
 Authentication failed.
 尝试密码： xxoo
 Authentication failed.
-尝试密码： admin..dds
-Authentication failed.
-尝试密码： xiaotao
-Authentication failed.
-尝试密码： xiaopi
-Authentication failed.
-尝试密码： xiaoli
-Authentication failed.
-尝试密码： xiaoguang
-Authentication failed.
-尝试密码： xiaodi
-Authentication failed.
-尝试密码： mumaasp.com
-Authentication failed.
+······
 尝试密码： motax
 Authentication failed.
 尝试密码： toor
