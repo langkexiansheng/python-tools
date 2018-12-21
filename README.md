@@ -42,3 +42,21 @@ Authentication failed.
 尝试密码： toor
 破解成功，执行命令 whoami： root
 ```
+
+### 0x05 udp_sniffers
+用来监听主机网卡的网络流量，
+用法：
+```
+PS C:\Users\cmd\Desktop> python3 .\udp_sniffers.py
+Protocol: UDP 192.168.1.30 -> 192.168.1.127
+Protocol: UDP 192.168.1.57 -> 192.168.1.127
+Protocol: UDP 192.168.1.80 -> 192.168.1.127
+Protocol: UDP 192.168.1.44 -> 192.168.1.127
+Protocol: UDP 192.168.1.16 -> 192.168.1.127
+Protocol: UDP 192.168.1.30 -> 192.168.1.127
+Protocol: UDP 192.168.1.57 -> 192.168.1.127
+Protocol: UDP 192.168.1.44 -> 192.168.1.127
+Protocol: UDP 192.168.1.16 -> 192.168.1.127
+Protocol: UDP 192.168.1.57 -> 192.168.1.127
+ 退出！
+```
