@@ -5,7 +5,7 @@ import socket
 import struct
 from ctypes import *
 
-HOST = '192.168.137.114'
+HOST = '192.168.1.114'
 
 # IP 头定义
 class IP(Structure):
