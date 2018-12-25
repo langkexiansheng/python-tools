@@ -47,9 +47,9 @@ def create_arp(src_mac, tgt_mac, gateway_ip, tgt_ip, gateway_mac):
     return
 
 # 定义需要的变量
-tgt_ip       = '192.168.91.102'   # '输入目标计算机IP'   # required=True
-gateway_ip   = '192.168.91.1'   # '输入网关IP'    # required=True
-interface    = 'Realtek USB GbE Family Controller'   # '输入使用的网卡'  # required=True
+tgt_ip       = '192.168.xx.xxx'   # '输入目标计算机IP'   # required=True
+gateway_ip   = '192.168.xx.x'   # '输入网关IP'    # required=True
+interface    = 'xxxxxxxxxxxxxxxxxxxxx'   # '输入使用的网卡'  # required=True
 packet_count = 1000            # 嗅探包的个数
 
 src_mac = get_if_hwaddr(interface)
